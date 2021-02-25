@@ -1,4 +1,4 @@
-# Elsys ERS CO2 Doku
+# Elsys ERS CO2
 
 * https://www.elsys.se/shop/product/ers-co2/?v=f003c44deab6[Produktseite vom Hersteller]
 * Die CO2 Sensoren müssen kalibriert werden. Das kann manuell oder automatisch geschehen. Mehr Dazu im Datenblatt und +
