@@ -1,0 +1,16 @@
+= Dokumentation der CO2-Messungen
+Georg Roeger, Sérgio Alves
+
+
+* CO2 Messungen in Räumen um die Aerosolbelastung zu messen
+* Grundidee: Die Aerosolkonzentration in Räumen korreliert mit der CO2 Konzentration (in ausgeatmeter Luft ist beides vorhanden) +
+  je mehr ausgeatmete Luft, desto mehr CO2 und Aerosole +
+* Verwendete Sensoren link:../../04_LoRa_Hardware/Elsys_ERS_CO2/Elsys_ERS_CO2_doku.adoc[ERS CO2] von Elsys +
+* Die Application im TTN ist "co2measurement" +
+
+*JSON File:*
+
+link:JSON_CO2Messung.txt[CO2 Messung] (im Sensorconfig Frontend unter Backendtest/CO2_sensor_1.3)
+
+
+

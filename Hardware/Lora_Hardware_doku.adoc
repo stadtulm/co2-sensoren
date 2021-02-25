@@ -1,0 +1,19 @@
+# LoRa Hardware
+
+Dokumentation über alle LoRaWAN fähigen Geräte
+
+# Elsys:
+
+Die Sensoren lassen sich über die Sensor Settings App der Firma über NFC konfigurieren. Dafür wird das Handy mit dem NFC Chip an den NFC Chip der Sensoren (Position im Datenblatt angegeben) gehalten. Über NFC können die Einstellungen gelesen werden und die Sensoren neu eingestellt werden.
+
+Zum Einrichten der Sensoren zuerst in TTN einen neuen Sensor anlegen (Die Device EUI steht auf dem Sensor). Danach lassen sich wenn OTAA ausgeschalten ist (im TTN und in der Elsys App) unter dem Abschnitt Sensor Keys die device address, der app session key und der network session key eintragen. Durch den Button write in der App lässt sich der Sensor wieder über NFC beschreiben.
+
+Wenn die Sensoren im Feld sind, sind sie meistens gesperrt über den Button Lock (in der App unter Advanced) lassen sich die Sensoren mit dem Code *1037* entsperren und auch wieder sperren.
+
+* *link:Elsys_ELT2/Elsys_ELT2_doku.adoc[Elsys ELT 2 (i)]* -- Sensor für die Glatteiserkennung
+* *link:Elsys_ERS_CO2/Elsys_ERS_CO2_doku.adoc[Elsys ERS CO2]* -- Sensor für die CO2 Messungen
+
+*https://www.elsys.se/en/documents-firmware/[Datenblätter von Elsys]*
+
+# ITalks:
+* *link:MCS1608/MCS1608_doku.adoc[MCS 1608]* (im Fahrradständer verwendet)

@@ -1,0 +1,23 @@
+ABC doesn't have to be turned off just to do a manual calibration. It is recommended to turn it off when the sensor is used in environments where the CO2 level rarely goes down to 400 ppm. To turn it off you have to change the CO2Cfg setting to "2". This can be done with our app by typing CO2Cfg:2 under Advanced>Custom Settings and writing to the sensor. Via downlink you can send the following payload: 3E031202FE. With ABC disabled it is recommended to do a manual calibration at least every other year. The calibration procedures with ABC enabled and disabled are as follows:
+
+*With ABC enabled*
+
+Place sensor in fresh air i.e. 400 ppm for at least 10 minutes. +
+Run calibration using Co2Cfg:1 either by NFC or by sending the following downlink payload: 3E031201FE +
+Wait for calibration to complete, normally takes about 2 minutes. +
+Check reported sensor value and that it is around 400 ppm. +
+Place sensor in the intended location. +
+
+The following procedure is only for sensors that will not "see" 400 ppm regularly and where manual calibration has to be done approximately every other year:
+
+*With ABC disabled*
+
+Turn off ABC using the configuration Co2Cfg:2. Downlink: 3E031202FE +
+Place sensor in fresh air i.e. 400 ppm for at least 10 minutes. +
+Run calibration with ABC disabled using Co2Cfg:3. Downlink: 3E031203FE +
+Wait for calibration to complete, normally takes about 2 minutes. +
+Check reported sensor value and that it is around 400 ppm. +
+Place sensor in the intended location. +
+
+*Note:* Co2Cfg:1 corresponds to pressing the "Calibrate" button in the app.
+

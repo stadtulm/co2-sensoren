@@ -1,0 +1,35 @@
+{
+  "db": {
+    "measurement": "backendtest"
+  },
+  "fields": [
+    {
+      "type": "int",
+      "name": "Temp",
+      "offset_bytes": 1,
+      "length_bytes": 2
+    },
+    {
+      "type": "uint",
+      "name": "humidity",
+      "offset_bytes": 4,
+      "length_bytes": 1
+    },
+    {
+      "type": "uint",
+      "name": "co2",
+      "offset_bytes": 6,
+      "length_bytes": 2
+    },
+    {
+      "type": "uint",
+      "name": "bat_vol",
+      "offset_bytes": 9,
+      "length_bytes": 2
+    }
+  ],
+  "time": {
+    "from": "network",
+    "format": "epoch_ms"
+  }
+}
