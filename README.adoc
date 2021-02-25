@@ -5,4 +5,5 @@ Im Rahmen des Projekts _Zukunftsstadt Ulm_ soll ein Netz aus flexibel aufstellba
 In Pandemien wie der aktuellen Corona-Pandemie ist es sinnvoll *CO2-Messungen* im öffentlichem Personenverkehr und in Räumen von öffentlichen Institutionen durchzuführen, wo sich viele Menschen aufhalten. In den Zusatzinformationen der BGHM (Berufsgenossenschaft Holz und Metall) wird eine Korrelation zwischen hohem Kohlendioxidwert und Virus-Aerosolen erklärt.
 
 -> link:Dokumentation.adoc[Dokumentation]
+
 -> link:Hardware/README.adoc[Hardware]
