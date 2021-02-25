@@ -6,4 +6,4 @@ In Pandemien wie der aktuellen Corona-Pandemie ist es sinnvoll *CO2-Messungen* i
 
 - *link:Hardware[Hardware]* +
 - *link:Messkampagne/THU[Messkampagne - THU]* +
-- *link:LoRaWAN[LoRaWAN - Long Range Wide Area Network]
+- *link:LoRaWAN[LoRaWAN - Long Range Wide Area Network]*
