@@ -2,7 +2,7 @@
 
 Es werden die LoRa-fähigen CO2-Sensoren *link:Elsys_ERS_CO2/Elsys_ERS_CO2_doku.adoc[ERS CO2]* der schwedischen Firma _Elsys_ verwendet. 
 
-## Elsys:
+## Elsys
 
 Die Sensoren lassen sich über die Sensor Settings App der Firma über NFC konfigurieren. Dafür wird das Handy mit dem NFC Chip an den NFC Chip der Sensoren (Position im Datenblatt angegeben) gehalten. Über NFC können die Einstellungen gelesen werden und die Sensoren neu eingestellt werden.
 
