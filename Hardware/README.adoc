@@ -1,0 +1,14 @@
+# Hardware
+
+Es werden die LoRa-fähigen CO2-Sensoren *link:Elsys_ERS_CO2/Elsys_ERS_CO2_doku.adoc[ERS CO2]* der schwedischen Firma _Elsys_ verwendet. 
+
+## Elsys
+
+Die Sensoren lassen sich über die Sensor Settings App der Firma über NFC konfigurieren. Dafür wird das Handy mit dem NFC Chip an den NFC Chip der Sensoren (Position im Datenblatt angegeben) gehalten. Über NFC können die Einstellungen gelesen werden und die Sensoren neu eingestellt werden.
+
+Zum Einrichten der Sensoren zuerst in TTN einen neuen Sensor anlegen (Die Device EUI steht auf dem Sensor). Danach lassen sich wenn OTAA ausgeschalten ist (im TTN und in der Elsys App) unter dem Abschnitt Sensor Keys die device address, der app session key und der network session key eintragen. Durch den Button write in der App lässt sich der Sensor wieder über NFC beschreiben.
+
+Wenn die Sensoren im Feld sind, sind sie meistens gesperrt über den Button Lock (in der App unter Advanced) lassen sich die Sensoren mit einem selbstgewählten Code entsperren und auch wieder sperren.
+
+*https://www.elsys.se/en/documents-firmware/[Datenblätter von Elsys]*
+
