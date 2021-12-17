@@ -1,1 +1,0 @@
-= LoRaWAN - Long Range Wide Area Network
