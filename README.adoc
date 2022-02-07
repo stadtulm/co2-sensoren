@@ -1,11 +1,13 @@
-# CO2-Sensoren
+# CO~2~-Sensoren
 
 Im Rahmen des Projekts _Zukunftsstadt Ulm_ soll ein Netz aus flexibel aufstellbarer, eigenständiger und sichtbarer Sensorik zur Erhebung von Mobilitätsdaten aufgebaut werden. In Zusammenarbeit mit den BürgerInnen soll dadurch ein Impuls für eine zukünftige Infrastruktur zur Datenerhebung geschaffen werden. Die von den Sensoren erfassten und anonymisierten Mobilitätsdaten sollen am Ende über die Datenplattform der Stadt Ulm für eine nachhaltige und agile Stadtplanung weiteren Nutzern zur Verfügung stehen. Die Technische Hochschule Ulm (THU) setzt das Projekt als Kooperationspartner im Themenfeld Mobilität wissenschaftlich um.
 
-In Pandemien wie der aktuellen Corona-Pandemie ist es sinnvoll *CO2-Messungen* im öffentlichem Personenverkehr und in Räumen von öffentlichen Institutionen durchzuführen, wo sich viele Menschen aufhalten. In den Zusatzinformationen der BGHM (Berufsgenossenschaft Holz und Metall) wird eine Korrelation zwischen hohem Kohlendioxidwert und Virus-Aerosolen erklärt.
+In Pandemien wie der aktuellen Corona-Pandemie ist es sinnvoll *CO~2~-Messungen* im öffentlichem Personenverkehr und in Räumen von öffentlichen Institutionen durchzuführen, wo sich viele Menschen aufhalten. In den Zusatzinformationen der BGHM (Berufsgenossenschaft Holz und Metall) wird eine Korrelation zwischen hohem Kohlendioxidwert und Virus-Aerosolen erklärt. Aus gegebenem Anlass wurden in diesem Projekt ausschließlich Schulräume vermessen. Es soll eine Auswertemethodik enwickelt werden, um auf das raumspezifische Lüftungsverhalten schließen zu können. Unter link:Backend/Auswertung[Auswertung] werden die Ergebnisse festgehalten.
 
 - *link:Hardware[Hardware]* 
-- *link:Backend[Backend]* (hier findet die link:/Backend/Auswertung[Auswertung] statt)
+- *link:Backend[Backend]*
+- *link:Backend/Auswertung[Auswertung]*
+
 
 
 
