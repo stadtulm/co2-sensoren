@@ -10,5 +10,6 @@ Zum Einrichten der Sensoren zuerst in TTN einen neuen Sensor anlegen (Die Device
 
 Wenn die Sensoren im Feld sind, sind sie meistens über den Button Lock gesperrt (in der App unter Advanced). Die Sensoren lassen sich mit einem selbstgewählten Code entsperren und auch wieder sperren.
 
-*https://www.elsys.se/en/documents-firmware/[Datenblätter von Elsys]*
-
+- *https://www.elsys.se/en/documents-firmware/[Datenblätter von Elsys]*
+- *link:../Backend[Backend]*
+- *link:../Backend/Auswertung[Auswertung]*
