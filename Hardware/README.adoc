@@ -12,4 +12,4 @@ Wenn die Sensoren im Feld sind, sind sie meistens über den Button Lock gesperrt
 
 - *https://www.elsys.se/en/documents-firmware/[Datenblätter von Elsys]*
 - *link:../Backend[Backend]*
-- *link:../Backend/Auswertung[Auswertung]*
+- *link:../Auswertung[Auswertung]*

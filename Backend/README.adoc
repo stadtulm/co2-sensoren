@@ -14,5 +14,5 @@ Die LoRa-Boxen übertragen die Daten über LoRaWAN an das Gateway. Diese werden 
 
 Das Backend wird auf einer Virtuellen Maschine betrieben. Die Daten werden vom TTN-Server an das Sensorconfig-Frontend übermittelt, welches die Bedienoberfläche des Node-Red darstellt. Abgelegt werden die Sensordaten durch das Node-Red in der zeitbasierten Datenbank InfluxDB (Von hier werden die Messdaten vom CO~2~-Auswerteskript abgegriffen). Über Grafana können die ausgewerteten Messdaten für die Nutzer visualisiert werden (Für die CO~2~-Messungen wird Grafana als Visualisierungstool nicht verwendet). Die MongoDB verwaltet als relationale Datenbank die Zugriffsrechte auf das Sensorconfig-Frontend und gewährleistet die Sicherheit des Systems. 
 
-- *link:Auswertung[Auswertung]*
+- *link:../Auswertung[Auswertung]*
 - *link:../Hardware[Hardware]*
