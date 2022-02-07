@@ -1,0 +1,18 @@
+# Backend
+
+Im Folgenden soll ein kurzer Überblick über die Bestandteile und deren Kommunikation des an der THU aufgebauten Backends gegeben werden. Hier findet die Messdatenverarbeitung, Auswertung und Visualisierung statt.
+
+image::Überblick_Backend.jpg[]
+
+Die LoRa-Boxen übertragen die Daten über LoRaWAN an das Gateway. Diese werden dann über Ethernet an den TTN-Server weitergeben und an das Backend übermittelt.
+
+- 1: Sensordatenübermittlung (blau)
+- 2: Payload wird übermittelt und Sensorconfig-Frontend als Bedienoberfläche von NodeRED
+- 3: Verwaltung der Zugriffsrechte  (rot)
+- 4: Ablage der Daten in der InfluxDB (loradatadb)
+- 5: Visualisierung der Daten
+
+Das Backend wird auf einer Virtuelle Maschine betrieben. Die Daten werden vom TTN-Server an das Sensorconfig-Frontend übermittelt, welches die Bedienoberfläche des Node-Red darstellt. In Node-Red findet die Auswertung statt. Abgelegt werden die Sensordaten durch das Node-Red in der zeitbasierten Datenbank InfluxDB. Über Grafana werden die ausgewerteten Messdaten für die Nutzer visualisiert. Die MongoDB verwaltet als relationale Datenbank die Zugriffsrechte auf das Sensorconfig-Frontend und gewährleistet die Sicherheit des Systems. 
+
+- *link:../Hardware[Hardware]*
+- *link:../Testreihen[Testreihen]*
