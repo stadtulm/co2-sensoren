@@ -1,0 +1,9 @@
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+#json files Disable for initial commit to stadt ulm repo
+#*.json
+
+
